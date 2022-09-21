@@ -1,0 +1,52 @@
+@import 'variables';
+
+.help-algorithm {
+  margin: 30px 18px 100px 16px;
+  color: var(--gray);
+
+  h2 {
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 17px;
+  }
+
+  p {
+    font-size: 12px;
+    margin-bottom: 17px;
+  }
+
+  &__form {
+
+    margin-top: 30px;
+
+    label {
+      font-size: 12px;
+
+    }
+
+    input[type="text"] {
+      display: block;
+      width: 100%;
+      height: 30px;
+      margin: 7px 0 20px 0;
+    }
+
+    .radioContainer {
+      display: flex;
+      width: 50%;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+
+      & label[for="male"] {
+      margin-right: 55px;
+      }
+    }
+
+    .help-algorithm__form-send-button {     
+      width: 100%;
+      height: 39px;
+      font-size: 16px;     
+    }
+  }
+}
