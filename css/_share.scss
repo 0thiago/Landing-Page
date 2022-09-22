@@ -1,25 +1,23 @@
-@import 'variables';
-
 .share {
 
   position: relative;
-  border-top: 1px solid var(--gray);
+  border-top: 1px solid var(--secondary_color-dark);
   color: var(--gray);
   
   padding: 0 0 130px 0;
 
   p {
-    font-size: 14px;
+    font-size: 16px;
     margin: 28px 17px;
-    text-align: center;
+    text-align: justify;
   }
 
   .share__form {
 
-    margin: 0 20px 0 9px;
+    margin: 0 20px 0 16px;
 
     label {
-      font-size: 12px;
+      font-size: 16px;
     }
   
     input[type="text"] {

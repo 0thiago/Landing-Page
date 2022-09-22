@@ -1,17 +1,16 @@
-@import 'variables';
-
 .help-algorithm {
-  margin: 30px 18px 100px 16px;
-  color: var(--gray);
+  margin: 0px 18px 100px 16px;
 
-  h2 {
-    font-size: 20px;
-    font-weight: normal;
+  h1 {
+    color: var(--secondary_color);
+    font-size: 19px;
+    font-weight: bold;
     margin-bottom: 17px;
   }
 
   p {
-    font-size: 12px;
+    text-align: justify;
+    font-size: 16px;
     margin-bottom: 17px;
   }
 
@@ -20,8 +19,7 @@
     margin-top: 30px;
 
     label {
-      font-size: 12px;
-
+      font-size: 16px;
     }
 
     input[type="text"] {
@@ -33,13 +31,13 @@
 
     .radioContainer {
       display: flex;
-      width: 50%;
+      max-width: 250px;
       justify-content: space-between;
       align-items: center;
-      margin-bottom: 20px;
+      margin: 0 20vw 20px 0;
 
       & label[for="male"] {
-      margin-right: 55px;
+      margin-right: 5vw;
       }
     }
 

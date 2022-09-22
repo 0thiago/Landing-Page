@@ -11,7 +11,9 @@
 
 <body>
 
-  <header class="header">
+  <a href="#header"><img class="back-to-home_button" src="imgs/home-button.png" alt="botão para voltar ao início"></a>
+
+  <header id="header" class="header">
 
     <p class="header__headline">
       uma seleção de produtos
@@ -40,8 +42,8 @@
   </header>
   <main>
 
-    <section class="help-algorithm">
-      <h2>Ajude o algorítimo a ser mais certeiro</h2>
+    <section id="help-algorithm" class="help-algorithm">
+      <h1>Ajude o algorítimo a ser mais certeiro</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ultricies tellus nec mi porta convallis
         sollicitudin eu urna. Mauris rhoncus erat sed interdum dignissim. Suspendisse semper pretium consectetur.
@@ -57,25 +59,29 @@
         <label for="inputName">Seu nome:</label>
         <input type="text" name="inputName" id="inputName">
 
-        <label for="inputEmail">E-mail</label>
+        <label for="inputEmail">E-mail:</label>
         <input type="text" name="inputEmail" id="inputEmail">
 
         <label for="inputCPF">CPF:</label>
         <input type="text" name="inputCPF" id="inputCPF">
 
         <div class="radioContainer">
-          <input class="inputRadio" type="radio" name="genre" id="male" value="male">
-          <label for="male">Masculino</label>
+          <div class="male-box">
+            <input class="inputRadio" type="radio" name="genre" id="male" value="male">
+            <label for="male">Masculino</label>
+          </div>
 
-          <input class="inputRadio" type="radio" name="genre" id="female" value="female">
-          <label for="female">Feminino</label>
+          <div class="female-box">
+            <input class="inputRadio" type="radio" name="genre" id="female" value="female">
+            <label for="female">Feminino</label>
+          </div>
         </div>
 
         <button class="help-algorithm__form-send-button button">Enviar</button>
       </form>
     </section>
 
-    <section class="products">
+    <section id="products" class="products">
 
       <h1 class="section-title">Sua seleção especial</h1>
 
@@ -94,10 +100,10 @@
       </div>
 
       <button class="products__more-products-button button">Ainda mais produtos aqui!</button>
-      
+
     </section>
 
-    <section class="share">
+    <section id="share" class="share">
 
       <h1 class="section-title">Compartilhe a novidade</h1>
 
