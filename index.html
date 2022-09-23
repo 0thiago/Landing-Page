@@ -55,9 +55,9 @@
         Morbi eu condimentum urna. Curabitur eu magna eget turpis condimentum ultrices. Suspendisse quis lorem
         ultricies, pulvinar purus sed, egestas erat. Etiam ultricies a ante vehicula pharetra. Quisque ut
       </p>
-      <form class="help-algorithm__form" action="">
-        <label for="inputName">Seu nome:</label>
-        <input type="text" name="inputName" id="inputName">
+      <form id="helpAlgoForm" class="help-algorithm__form" action="gravarHelpAlgoFormData.html">
+        <label for="helpAlgoForm_inputName">Seu nome:</label>
+        <input type="text" name="helpAlgoForm_inputName" id="helpAlgoForm_inputName">
 
         <label for="inputEmail">E-mail:</label>
         <input type="text" name="inputEmail" id="inputEmail">
@@ -67,17 +67,17 @@
 
         <div class="radioContainer">
           <div class="male-box">
-            <input class="inputRadio" type="radio" name="genre" id="male" value="male">
+            <input type="radio" name="genre" id="male" value="male">
             <label for="male">Masculino</label>
           </div>
 
           <div class="female-box">
-            <input class="inputRadio" type="radio" name="genre" id="female" value="female">
+            <input type="radio" name="genre" id="female" value="female">
             <label for="female">Feminino</label>
           </div>
         </div>
 
-        <button class="help-algorithm__form-send-button button">Enviar</button>
+        <button id="helpAlgoFormSendButton" class="help-algorithm__form-send-button button">Enviar</button>
       </form>
     </section>
 
@@ -85,21 +85,11 @@
 
       <h1 class="section-title">Sua seleção especial</h1>
 
-      <div class="products__item">
+      <div id="productsContainer" class="products__Main-Container">    
 
-        <img src="imgs/placeholder-300x200.png" alt="" class="products__item-img">
-
-        <div class="products__item-desc">
-          <p class="products__item-desc-name">Nome do Produto</p>
-          <p class="products__item-desc-old-price">de: R$23,99</p>
-          <p class="products__item-desc-new-price">Por: R$19,99</p>
-          <p class="products__item-desc-instalments">ou 2x de 9,99</p>
-          <button class="products__item-desc-buy-button button">Comprar</button>
-
-        </div>
       </div>
 
-      <button class="products__more-products-button button">Ainda mais produtos aqui!</button>
+      <button id="moreProductsButton" class="products__more-products-button button">Ainda mais produtos aqui!</button>
 
     </section>
 
