@@ -55,29 +55,30 @@
         Morbi eu condimentum urna. Curabitur eu magna eget turpis condimentum ultrices. Suspendisse quis lorem
         ultricies, pulvinar purus sed, egestas erat. Etiam ultricies a ante vehicula pharetra. Quisque ut
       </p>
-      <form id="helpAlgoForm" class="help-algorithm__form" action="gravarHelpAlgoFormData.html">
-        <label for="helpAlgoForm_inputName">Seu nome:</label>
-        <input type="text" name="helpAlgoForm_inputName" id="helpAlgoForm_inputName">
+      <form id="form" class="help-algorithm__form" action="saveHelpAlgoFormData.html">
+        <label id="labelName" for="helpAlgoForm_inputName">Seu nome:</label><span class="invalid-field"></span>
+        <input type="text" name="helpAlgoForm_inputName" id="inputName">
 
-        <label for="inputEmail">E-mail:</label>
-        <input type="text" name="inputEmail" id="inputEmail">
+        <label id="labelEmail" for="helpAlgoForm_inputEmail">E-mail:</label><span class="invalid-field"></span>
+        <input type="text" name="helpAlgoForm_inputEmail" id="inputEmail">
 
-        <label for="inputCPF">CPF:</label>
-        <input type="text" name="inputCPF" id="inputCPF">
+        <label id="labelCPF" for="helpAlgoForm_inputCPF">CPF:</label>
+        <span class="invalid-field"></span>
+        <input type="text" name="helpAlgoForm_inputCPF" id="inputCPF" maxlength="11">
 
         <div class="radioContainer">
           <div class="male-box">
-            <input type="radio" name="genre" id="male" value="male">
+            <input type="radio" name="helpAlgoForm_genre" id="male" value="male" checked>
             <label for="male">Masculino</label>
           </div>
 
           <div class="female-box">
-            <input type="radio" name="genre" id="female" value="female">
+            <input type="radio" name="helpAlgoForm_genre" id="female" value="female">
             <label for="female">Feminino</label>
           </div>
         </div>
 
-        <button id="helpAlgoFormSendButton" class="help-algorithm__form-send-button button">Enviar</button>
+        <button id="sendButton" class="help-algorithm__form-send-button button">Enviar</button>
       </form>
     </section>
 
@@ -99,15 +100,17 @@
 
       <p>Quer que seus amigos também ganhem a lista personalizada deles? Preencha agora!</p>
 
-      <form action="" class="share__form">
+      <form id="shareForm" action="saveShareFormData.html" class="share__form">
 
         <label for="inputFriendsName">Nome do seu amigo:</label>
+        <span class="invalid-field"></span>
         <input type="text" name="inputFriendsName" id="inputFriendsName">
 
         <label for="inputFriendsEmail">E-mail dele:</label>
+        <span class="invalid-field"></span>
         <input type="text" name="inputFriendsEmail" id="inputFriendsEmail">
 
-        <button class="share__form-send-button button">Enviar agora</button>
+        <button id="shareFormSendButton" class="share__form-send-button button">Enviar agora</button>
 
       </form>
 

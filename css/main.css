@@ -63,6 +63,15 @@ body {
   color: white;
 }
 
+.invalid-field {
+  color: red;
+  font-size: 13px;
+}
+
+.invalid-input {
+  border: 2px solid red;
+}
+
 .header {
   background-image: linear-gradient(10deg, white 28.5%, var(--secondary_color) 45%);
   padding: 30px 46px 100px 16px;
