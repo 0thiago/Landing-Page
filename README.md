@@ -32,14 +32,14 @@ This web application was developed with the following features:
 You will need a text editor in order to edit the code source, but I do recommend Visual Studio Code from Microsoft and you can get it [here](https://code.visualstudio.com/download).<br> 
 You can run all the project on a browser, I do recommend Google Chrome and you can get it [here](https://www.google.com/chrome/thank-you.html).<br>
 
-> *__Setup__*
+> *__Setup__*<br>
 >You can get the full project:
 > - a) Cloning with bash <code>git clone https://github.com/0thiago/Landing-Page.git && git cd Landing-Page</code>, or
 > - b) Opening it with GitHub Destkop, or
 > - c) Downloading it as zip file
 >  
-> __*Run*__
->You can run the project by opening the index.html on your browser
+> __*Run*__<br>
+>You can run the project by opening the index.html on your browser.
 <br><br><br>
 <a href="#landing-page">Back to Menu ↑</a>
 </section>
