@@ -9,7 +9,7 @@ This study project is made up of a landing page built in HTML, CSS and Javascrip
 <section id="#description">
 <h2>Description:</h2>
 
-Project Progress: 75%...
+:chart_with_upwards_trend: **Project Progress:** 75%...
 
 This landing page is store with forms and a product showroom. It has the following features:
 > - [x] API consumption
