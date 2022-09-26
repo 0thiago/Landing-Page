@@ -2,24 +2,28 @@
 
 Hey there, welcome!<br>
 I'm Thiago and I'm a fullstack developer in progress.<br>
-This study project is made up of a landing page simultaing a store with a couple of forms<br><br>
+This study project is made up of a landing page simultaing a store with a couple of forms.<br><br>
 
-<div align="center"><a href="#description"><img src="https://github.com/0thiago/imgs/blob/main/readme-description1.png" width="125px" height="40px"></a> <a href="#setuprun"><img src="imgs/readme-setuprun1.png" width="125px" height="40px"></a> <a href="#techs"><img src="imgs/readme-techs1.png" width="125px" height="40px"></a> <a href="#samples"><img src="imgs/readme-samples1.png" width="125px" height="40px"></a></div>
+<div align="center">
+  <a href="#description"><img src="https://github.com/0thiago/imgs/blob/main/readme-description1.png" width="125px" height="40px"></a>  
+  <a href="#setup--run"><img src="https://github.com/0thiago/imgs/blob/main/readme-setuprun1.png" width="125px" height="40px"></a>
+  <a href="#technologies"><img src="https://github.com/0thiago/imgs/blob/main/readme-techs1.png" width="125px" height="40px"></a>
+  <a href="#samples"><img src="https://github.com/0thiago/imgs/blob/main/readme-samples1.png" width="125px" height="40px"></a>
+</div>
 
 <section id="#description">
 <h2>Description:</h2>
-
+  
 :chart_with_upwards_trend: **Project Progress:** 75%...
 
-This landing page is store with forms and a product showroom. It has the following features:
+This web application was developed with the following features:
 > - [x] API consumption
 > - [x] Form validation with Regex
 > - [x] A button to show more products on click
 > - [x] Floating button to back home
 > - [ ] Full README file (90%...)
 > - [ ] Responsivity: (320px - 1023px so far)
-6
-<br><br><br>
+><br><br><br>
 </section>
 
 <section id="#setuprun">
@@ -37,6 +41,7 @@ You can run all the project on a browser, I do recommend Google Chrome and you c
 > __*Run*__
 >You can run the project by opening the index.html on your browser
 <br><br><br>
+<a href="#landing-page">Back to Menu ↑</a>
 </section>
  
 <section id="#techs">
@@ -53,12 +58,18 @@ You can run all the project on a browser, I do recommend Google Chrome and you c
 >    <td><img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original-wordmark.svg" width="45px" height="45px"></td>
 >    <td><img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-plain.svg" width="45px" height="45px"></td>
 >  </tr>
-></table><br><br>
+></table>
+><br><br>
+><a href="#landing-page">Back to Menu ↑</a>
 </section>
 
 <section id="#samples">
 <h2>Samples</h2><br>
-<div align="center"><img src="https://github.com/0thiago/imgs/blob/main/under-construction_geek_man_01.png" width="165px" height="200px"></div><br><br>
+<div align="center">
+<img src="https://github.com/0thiago/imgs/blob/main/under-construction_geek_man_01.png" width="165px" height="200px">
+</div>
+<br><br>
+<a href="#landing-page">Back to Menu ↑</a>
 </section>
 
   
