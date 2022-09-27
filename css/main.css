@@ -98,7 +98,7 @@ body {
   }
 }
 .header {
-  background-image: url("/imgs/bg-red-white-soft-degrade.jpg");
+  background-image: url("../imgs/bg-red-white-soft-degrade.jpg");
   background-size: cover;
   padding: 30px 46px 100px 16px;
   color: white;
