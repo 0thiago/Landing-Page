@@ -1,6 +1,6 @@
 <h1 align="center">Landing Page</h1> 
 
-<div align="center">[ Acesse aqui a versão em português ](#em-português)</div>
+<div align="center"><a href="#em-português">Acesse aqui a versão em Português</a></div>
 
 Hey there, welcome!<br>
 I'm Thiago and I'm a fullstack developer in progress.<br>
