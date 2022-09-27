@@ -48,3 +48,34 @@
     }
   }
 }
+
+// ↓ LAYOUT FOR PC 1024px+ ↓ //
+
+@media screen and (min-width: 1024px) {
+
+  .help-algorithm {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    align-items: center;
+    max-width: 920px;
+    margin: 0 auto 100px;
+
+    &-description_container {
+      width: 50%;
+    }
+
+    &-form_container {
+      width: 50%;
+    }
+
+    &__form {
+
+      .radioContainer {
+        margin: 0 10vw 20px 0;
+
+      }
+    }
+  }
+  
+}

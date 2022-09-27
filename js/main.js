@@ -107,11 +107,13 @@ const ProductsSection = {
   },
 
   productHTMLStructure: function (product) {
+  
     return `
       <div id="productContent" class="products__item">
           <img id="productImg" class="products__item-img" src="${product.image}" alt="${product.name} Picture" >
           <div class="products__item-desc">
             <p id="productName" class="products__item-desc-name">${product.name}</p>
+            <p id="productInfo" class="products__item-desc-info">${product.description}</p>
             <p id="productOldPrice" class="products__item-desc-old-price">de: R$${product.oldPrice},99</p>
             <p id="productNewPrice"  class="products__item-desc-new-price">Por: R$${product.price},99</p>
             <p id="productInstalments" class="products__item-desc-instalments">ou ${product.installments.count}x de R$${product.installments.value.toString().replace(".", ",")}9</p>
@@ -151,10 +153,12 @@ const ProductsSection = {
 
   cacheSelectors: function () {
 
+    
     this.$productContainer = document.querySelector('#productsContainer')
     this.$productContent = document.querySelector('#productContent')
     this.$productImg = document.querySelector('#productImg')
     this.$productName = document.querySelector('#productName')
+    this.$productInfo = document.querySelector('#productInfo')
     this.$productOldPrice = document.querySelector('#productOldPrice')
     this.$productNewPrice = document.querySelector('#productNewPrice')
     this.$productInstallments = document.querySelector('#productInstallments')

@@ -1,15 +1,20 @@
+.products-main_container {
+ position: relative;
+ border-top: 1px solid var(--secondary_color-dark);
+}
+
 .products {
 
   position: relative;
-  border-top: 1px solid var(--secondary_color-dark);
-  padding: 0 0 190px 0;
+  margin: 0 auto;
+  padding: 20px 0 190px 0;
+  
 
   &__item {
-
     display: flex;
     justify-content: space-between;
-    
-    margin: 23px 18px 30px 10px ;
+
+    margin: 23px 18px 30px 10px;
     height: 129px;
 
     &-img {
@@ -19,7 +24,7 @@
       width: 40.2vw;
       max-width: 169px;
       height: 132px;
-      
+
     }
 
     &-desc {
@@ -27,10 +32,14 @@
       flex-direction: column;
       justify-content: space-between;
       width: 47.6vw;
-      
+
       &-name {
         font-size: 16px;
         margin-bottom: 5px;
+      }
+
+      &-info {
+        display: none;
       }
 
       &-old-price {
@@ -60,9 +69,79 @@
     background-color: var(--primary_color-button);
     position: absolute;
     bottom: 135px;
-    left: 19vw;
+    left: 0;
+    right: 0;
+    margin: -20px auto;
     width: 62vw;
     height: 39px;
     font-size: 16px;
   }
+}
+
+// ↓ LAYOUT FOR PC 1024px+ ↓ //
+
+@media screen and (min-width: 1024px) {
+
+  .products-main_container {
+
+    max-width: 920px;
+    margin: 0 auto;
+
+    .products {
+
+      display: flex;
+      max-width: 930px;
+      flex-wrap: wrap;
+      
+
+      &__item {
+
+        flex-direction: column;
+
+        margin: 23px 18px 40px 10px;
+        height: 350px;
+        max-width: 200px;
+
+        &-img {
+          max-width: 200px;
+          height: 150px;
+
+        }
+
+        &-desc {         
+          flex-wrap: wrap;
+          max-width: 200px;
+
+          &-name {
+            margin-bottom: 10px;
+          }
+
+          &-info {
+            display: inline;
+            font-size: 12px;
+            margin-bottom: 8px;
+            max-width: 200px;
+          }
+
+          &-old-price {
+            margin-bottom: 6px;
+          }
+
+          &-new-price {
+            margin-bottom: 7px;
+          }
+
+          &-buy-button {
+            max-width: 200px;
+          }
+        }
+      }
+
+    }
+
+    .products__more-products-button {    
+      max-width: 260px;
+    }
+  }
+
 }
