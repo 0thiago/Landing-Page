@@ -1,6 +1,6 @@
 <h1 align="center">Landing Page</h1> 
 
-<div align="center"><a href="#em-português">Acesse aqui a versão em Português</a></div>
+<div align="center"><a href="#em-português">Acesse aqui a versão em Português do README</a></div>
 
 Hey there, welcome!<br>
 I'm Thiago and I'm a fullstack developer in progress.<br>
@@ -17,6 +17,8 @@ This study project is made up of a landing page simultaing a store with a couple
 <h2>Description:</h2>
   
 :chart_with_upwards_trend: **Project Progress:** Complete! :heavy_check_mark:
+
+<a href="https://0thiago.github.io/Landing-Page/">Test the project live version here</a> 
 
 This web application was developed with the following features:
 > :heavy_check_mark: API consumption<br> 
@@ -108,6 +110,8 @@ Este projeto de estudos é constituído de uma landing page que simula uma loja 
 <h2>Descrição:</h2>
   
 :chart_with_upwards_trend: **Progresso do Projeto:** Finalizado! :heavy_check_mark:
+
+<a href="https://0thiago.github.io/Landing-Page/">Acesse aqui a versão online do project</a>
 
 Esta aplicação web contém as seguintes funcionalidades:
 > :heavy_check_mark: Consumo de API<br> 
