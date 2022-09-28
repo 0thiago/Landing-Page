@@ -19,7 +19,7 @@
 .section-title {
   position: absolute;
   width: max-content;
-  background-color: white;  
+  background-color: white;
   font-size: 18px;
   color: var(--secondary_color);
   z-index: 1;
@@ -28,30 +28,27 @@
   left: 0;
   right: 0;
   margin: 0px auto;
-  
+
 }
 
 .back-to-home_button {
   width: 10vw;
-  max-width: 40px;  
-  position: fixed;  
+  max-width: 40px;
+  position: fixed;
   bottom: 20px;
   right: 3vw;
-  z-index: 3;  
+  z-index: 3;
   opacity: 0.9;
   filter: drop-shadow(0 0 1px rgba(0, 0, 0, 0.563));
 
-    a {
-      color: white;
-    }
+  a {
+    color: white;
+  }
 
-    &:visited {
-      color: white;
-    }
+  &:visited {
+    color: white;
+  }
 
-    &:hover {
-      filter: invert(2)
-    }
 }
 
 .invalid-field {
@@ -63,17 +60,69 @@
   border: 2px solid red;
 }
 
+.loading-bar_box {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background: #0000;
+  height: 50px;
+  width: 510px;
+  padding: 0;
+  margin: 0 auto;
+
+  .loading-bar {
+    background: #fff;
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 40px;
+    width: 500px;
+
+    & p {
+      font-weight: bold;
+      color: red;
+    }
+
+    &-value {
+      animation: load 5s normal forwards;
+      box-shadow: 0 10px 40px -10px #fff;
+      border-radius: 100px;
+      background: green;
+      height: 30px;
+      width: 0;
+    }
+  }
+}
+
+@keyframes load {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 68%;
+  }
+}
+
 @media screen and (min-width: 1024px) {
 
-  .section-title {    
-    background-color: white;  
+  .section-title {
+    background-color: white;
     font-size: 18px;
     color: var(--secondary_color);
     text-align: center;
     z-index: 2;
     padding: 0 5px;
-    margin:  0 auto;
+    margin: 0 auto;
     height: 10px;
   }
 
+  .back-to-home_button {
+    &:hover {
+      filter: invert(2)
+    }
+  }
 }

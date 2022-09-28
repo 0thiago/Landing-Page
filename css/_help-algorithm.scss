@@ -1,5 +1,5 @@
 .help-algorithm {
-  margin: 0px 18px 100px 16px;
+  padding: 0 16px 60px 16px;
 
   h1 {
     color: var(--secondary_color);
@@ -22,11 +22,12 @@
       font-size: 16px;
     }
 
-    input[type="text"] {
+    input[type="text"], input[type="number"] {
       display: block;
       width: 100%;
       height: 30px;
       margin: 7px 0 20px 0;
+      text-indent: 10px;
     }
 
     .radioContainer {
@@ -49,17 +50,20 @@
   }
 }
 
-// ↓ LAYOUT FOR PC 1024px+ ↓ //
+@media screen and (min-width: 640px) {
+  .help-algorithm {
+    padding: 0 60px 60px 60px;
+  }
+}
 
 @media screen and (min-width: 1024px) {
-
   .help-algorithm {
     display: flex;
     justify-content: space-between;
     gap: 3rem;
     align-items: center;
-    max-width: 920px;
-    margin: 0 auto 100px;
+    max-width: 1015px;
+    margin: 0 auto 50px;
 
     &-description_container {
       width: 50%;
@@ -70,12 +74,9 @@
     }
 
     &__form {
-
       .radioContainer {
         margin: 0 10vw 20px 0;
-
       }
     }
   }
-  
 }
