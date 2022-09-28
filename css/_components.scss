@@ -61,12 +61,12 @@
 }
 
 .loading-bar_box {
-  display: none;
+  display: flex;
   justify-content: center;
   align-items: center;
   background: #0000;
   height: 50px;
-  width: 510px;
+  width: 210px;
   padding: 0;
   margin: 0 auto;
 
@@ -87,7 +87,7 @@
     }
 
     &-value {
-      animation: load 5s normal forwards;
+      animation: load 8s normal forwards;
       box-shadow: 0 10px 40px -10px #fff;
       border-radius: 100px;
       background: green;

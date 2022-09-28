@@ -26,7 +26,8 @@ const validateHelpAlgoForm = {
 
   Events: {
     CPFonlyNumber: function (event) {
-      if (isNaN(event.key) === true) {
+      if (isNaN(event.key) === true && event.key !== 'Backspace' && event.key !== "Tab") {
+        console.log(event.key)
         return false
       }
     },
