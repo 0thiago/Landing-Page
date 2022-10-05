@@ -25,6 +25,7 @@ This web application was developed with the following features:
 > :heavy_check_mark: Form validation with Regex<br>
 > :heavy_check_mark: A button to show more products on click<br>
 > :heavy_check_mark: Floating button to back home<br>
+> :heavy_check_mark: Sass on CSS<br>
 > :heavy_check_mark: Responsivity
 ><br><br><br>
 </section>
@@ -58,10 +59,12 @@ You can run all the project on a browser, I do recommend Google Chrome and you c
 >    <td>CSS 3</td>
 >    <td>HTML 5</td>
 >    <td>Javascript</td>
+>    <td>Sass</td>
 >  <tr align="center">
 >    <td><img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg" width="45px" height="45px"></td>
 >    <td><img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original-wordmark.svg" width="45px" height="45px"></td>
 >    <td><img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-plain.svg" width="45px" height="45px"></td>
+>    <td><img src="https://github.com/devicons/devicon/blob/master/icons/sass/sass-original.svg" width="45px" height="45px"></td>
 >  </tr>
 ></table>
 ><br><br>
@@ -151,10 +154,12 @@ Você poderá executar o project em qualquer navegador de internet, eu recomendo
 >    <td>CSS 3</td>
 >    <td>HTML 5</td>
 >    <td>Javascript</td>
+>    <td>Sass</td>
 >  <tr align="center">
 >    <td><img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg" width="45px" height="45px"></td>
 >    <td><img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original-wordmark.svg" width="45px" height="45px"></td>
 >    <td><img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-plain.svg" width="45px" height="45px"></td>
+>    <td><img src="https://github.com/devicons/devicon/blob/master/icons/sass/sass-original.svg" width="45px" height="45px"></td>
 >  </tr>
 ></table>
 ><br><br>
